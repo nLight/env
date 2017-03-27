@@ -4,7 +4,7 @@ alias gundo="git reset HEAD~1"
 
 ## Resolve conflicts
 alias conflicts='git status -s | grep -e "^\(DD\|AU\|UD\|UA\|DU\|AA\|UU\)" | cut -d " " -f2'
-alias resolve='conflicts | xargs subl'
+alias resolve='conflicts | xargs atom'
 alias cadd='conflicts | xargs git add'
 
 ## WIP
