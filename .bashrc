@@ -19,6 +19,7 @@ alias gco="git checkout"
 alias gs="git status"
 alias fixup="git commit --fixup"
 alias fixlast="git commit --fixup HEAD~"
+alias gri="git rebase -i"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" # This loads nvm
