@@ -9,5 +9,8 @@
 	email = drozhkov@mesosphere.io
 [core]
         excludesfile = ~/.gitignore_global
-
+[fetch]
+	prune = true
+[commit]
+	template = ~/.gitmessage
 
